@@ -1,0 +1,54 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Helpers_AroundUs
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div class="introsectionhome">
+    <!-- <img id="logo" src="/src/assets/images/m3r logo.png" alt="loading logo"> -->
+
+    <h1>Welcome to Helpers_AroundUs</h1>
+  </div>
+  <div class="buttonforloginsection">
+    <ion-button expand="block" color="danger" (click)="gotouser()">
+      Google Signin For Users
+    </ion-button>
+    <ion-button expand="block" color="warning" (click)="gotohelper()">
+      Register as a New Helper
+    </ion-button>
+  </div>
+
+
+  <!-- <div class="slider">
+    <ion-slides>
+      <ion-slide>
+        <img src="/src/assets/images/m3r logo.png">
+      </ion-slide>
+      <ion-slide>
+        <img src="">
+      </ion-slide>
+      <ion-slide>
+        <img src="">
+      </ion-slide>
+      <ion-slide>
+        <img src="">
+      </ion-slide>
+      <ion-slide>
+        <img src="">
+      </ion-slide>
+    </ion-slides>
+  </div> -->
+
+</ion-content>
+
+<ion-footer (click)="gotoaboutus()">
+  <ion-toolbar class="footer_credits">
+    <h4>
+      Click here to contact us.
+    </h4>
+  </ion-toolbar>
+</ion-footer>

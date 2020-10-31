@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>taxi</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      Auto/Taxi
+    </ion-list-header>
+    <ion-item *ngFor="let user of UsersArray">
+      <ion-label >
+        <h2>
+          {{user.Name}}
+        </h2>
+        <p>
+          {{user.Email}}
+        </p>
+        <p>
+          {{user.Gender}}
+        </p>
+        <p>
+          {{user.Work}}
+        </p>
+        <p>
+          {{user.City}}
+        </p>
+        <ion-button id="buttoncall" (click)="callfn()">
+          {{user.Phone}}
+        </ion-button>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
+<ion-footer>
+  <ion-toolbar class="footer_credits">
+    <h4>
+      Developed by Rajkumar
+    </h4>
+  </ion-toolbar>
+</ion-footer>

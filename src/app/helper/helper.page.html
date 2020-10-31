@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Helper</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<div class="form_for_reg_helper">
+  <ion-item>
+    <ion-label position="floating">Display Name</ion-label>
+    <ion-input id="disp_name_helper" type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Email</ion-label>
+    <ion-input id="email_helper" type="email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Password</ion-label>
+    <ion-input id="pswd_helper" type="Password"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Whatsapp/Phone</ion-label>
+    <ion-input id="phone_helper" type="number"></ion-input>
+  </ion-item>
+  <!-- <ion-item>
+    <ion-label position="floating">Area</ion-label>
+    <ion-input id="city_helper" type="text"></ion-input>
+  </ion-item> -->
+  <ion-item>
+    <ion-label>Work/Occupation</ion-label>
+    <ion-select id="work_helper" placeholder="Select One" okText="Okay" cancelText="Dismiss">
+      <ion-select-option value="electrician">Electrician</ion-select-option>
+      <ion-select-option value="driver">Driver</ion-select-option>
+      <ion-select-option value="painter">painter</ion-select-option>
+      <ion-select-option value="mason">Mason/Kothanar</ion-select-option>
+      <ion-select-option value="carpenter">Carpenter</ion-select-option>
+      <ion-select-option value="eventorganizer">EventOrganizer</ion-select-option>
+      <ion-select-option value="plumber">Plumber</ion-select-option>
+      <ion-select-option value="auto">Auto/Taxi</ion-select-option>
+      <ion-select-option value="nurse">Nurse/Physician</ion-select-option>
+      <ion-select-option value="socialworker">SocialWorker</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-label>Gender</ion-label>
+    <ion-select  id="gender_helper" placeholder="Select One">
+      <ion-select-option value="female">Female</ion-select-option>
+      <ion-select-option value="male">Male</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-button (click)="register_helper()">Register</ion-button>
+</div>
+
+<!-- <script src="helperreg.js"></script> -->
+</ion-content>
+<ion-footer>
+  <ion-toolbar class="footer_credits">
+    <h4>
+      Developed by Rajkumar
+    </h4>
+  </ion-toolbar>
+</ion-footer>

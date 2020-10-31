@@ -1,0 +1,7 @@
+{
+  "name": "Helpers_AroundUs",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

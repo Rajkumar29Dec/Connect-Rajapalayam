@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>User</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="userclass">
+<h3>Welcome <h2 id="name_user_display"></h2></h3>
+
+ 
+<!-- <div>
+  <ion-item>
+    <ion-label position="floating">city</ion-label>
+    <ion-input id="city_user" type="text"></ion-input>
+  </ion-item>
+</div> -->
+<div class="categoriespanelhome">
+  <ion-label id="cattitle">Categories</ion-label>
+
+  <div id="listofcat">
+    <ion-list>
+      <ion-item>
+        <ion-label (click)="gotoelectrician()">Electrician</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label (click)="gotopainter()">Painter</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label (click)="gotomason()">Mason/Kothanar</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label (click)="gotocarpenter()">Carpenter</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label (click)="gotoeventorganizer()">Event Organizer</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label (click)="gotoplumber()">Plumber</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label (click)="gotodriver()">Driver</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label (click)="gotoautoortaxi()">Auto/Taxi</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label (click)="gotonurseorcompounder()">Nurse/Compounder</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label (click)="gotosocialworkers()">Social Workers</ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+</div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title id="name_user_display"></ion-title>
+    <ion-title id="email_user_display"></ion-title>
+  </ion-toolbar>
+  <ion-toolbar class="footer_credits">
+    <h4>
+      Developed by Rajkumar
+    </h4>
+  </ion-toolbar>
+</ion-footer>
